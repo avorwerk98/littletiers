@@ -5,19 +5,33 @@ var db      = low(adapter);
 
 // init the data store
 // ---------------------------
-// YOUR CODE
+db.defaults({ posts: []}).write();
+
+console.log(db.get('posts').value());
 
 // add post
 // ----------------------------
-// YOUR CODE
+
+db.get('posts')
+    .push({ id: 2, title: 'great', published: true})
+    .write()
+
+db.get('posts')
+    .push({ id: 3, title: 'new', published: false})
+    .write()
+
+db.get('posts')
+    .push({ id: 4, title: 'book', published: false})
+    .write()
+
 
 // count posts
 // ----------------------------
-// YOUR CODE
+console.log(db.get('posts').countBy());
 
 // find all posts ids
 // ----------------------------
-// YOUR CODE
+
 
 // all matches of published false
 // ----------------------------

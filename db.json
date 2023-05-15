@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "lowdb is awesome",
+      "published": true
+    },
+    {
+      "id": 2,
+      "title": "great",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "new",
+      "published": false
+    },
+    {
+      "id": 4,
+      "title": "book",
+      "published": false
+    },
+    {
+      "id": 2,
+      "title": "great",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "new",
+      "published": false
+    },
+    {
+      "id": 4,
+      "title": "book",
+      "published": false
+    },
+    {
+      "id": 2,
+      "title": "great",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "new",
+      "published": false
+    },
+    {
+      "id": 4,
+      "title": "book",
+      "published": false
+    },
+    {
+      "id": 2,
+      "title": "great",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "new",
+      "published": false
+    },
+    {
+      "id": 4,
+      "title": "book",
+      "published": false
+    },
+    {
+      "id": 2,
+      "title": "great",
+      "published": true
+    },
+    {
+      "id": 3,
+      "title": "new",
+      "published": false
+    },
+    {
+      "id": 4,
+      "title": "book",
+      "published": false
+    },
+    {
+      "id": "1",
+      "title": "ping",
+      "published": "false"
+    },
+    {
+      "id": "Hello",
+      "title": "11",
+      "published": "true"
+    },
+    {
+      "id": "90",
+      "title": "Number",
+      "published": "false"
+    }
+  ]
+}
