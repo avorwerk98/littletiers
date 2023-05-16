@@ -10,6 +10,7 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE $PORT
+
 
 CMD ["node", "http_server.js"]
